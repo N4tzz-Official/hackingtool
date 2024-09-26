@@ -78,12 +78,16 @@ if __name__ == "__main__":
             if not os.path.exists(fpath):
                 os.system('clear')
                 # run.menu()
-                print("""
+                print("""                 _  _ _ _  _           _ ___               _            _ _ 
+                                        | \| | | || |_ ______ | | _ \___ __ _ _  _(_)_ _ ___ __| | |
+                                        | .` |_  _|  _|_ /_ / |_|   / -_) _` | || | | '_/ -_) _` |_|
+                                        |_|\_| |_| \__/__/__| (_)_|_\___\__, |\_,_|_|_| \___\__,_(_)
+                                                         
                         [@] Set Path (All your tools will be installed in that directory)
                         [1] Manual 
                         [2] Default
                 """)
-                choice = input("Z4nzu =>> ").strip()
+                choice = input("N4tzz Console =>> ").strip()
 
                 if choice == "1":
                     inpath = input("Enter Path (with Directory Name) >> ").strip()
